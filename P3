@@ -5,7 +5,7 @@
     "colab": {
       "provenance": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyNyzlw+ZuXWRBnj4Z5+RqgL",
+      "authorship_tag": "ABX9TyPjTZawYJ6V+/+2sz7AEsKa",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -251,12 +251,60 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "nombre=input('Ingrese su nombre: ')\n",
+        "edad=int(input('Ingrese su edad: '))\n",
+        "print('La edad de',nombre, 'es',edad,'años')"
+      ],
       "metadata": {
-        "id": "mk5ZJQkxxh4D"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mk5ZJQkxxh4D",
+        "outputId": "7748e45b-119d-4ee5-f156-63a3298a7d60"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese su nombre: kevin\n",
+            "Ingrese su edad: 20\n",
+            "La edad de kevin es 20 años\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1=int(input('Ingrese el primer numero: '))\n",
+        "n2=int(input('Ingrese el segundo numero: '))\n",
+        "if n1==n2:\n",
+        "  print('Los 2 numeros son iguales')\n",
+        "else:\n",
+        "  print('Los 2 numeros no son iguales')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LQ2xZWqTy7io",
+        "outputId": "486cdadf-178f-4f66-9bc0-f7357ed3cdf6"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el primer numero: 8\n",
+            "Ingrese el segundo numero: 8\n",
+            "Los 2 numeros son iguales\n"
+          ]
+        }
+      ]
     }
   ]
 }
